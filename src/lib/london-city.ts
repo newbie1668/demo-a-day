@@ -1,4 +1,7 @@
-import raw from "@/generated/london-city.json";
+import buildings0 from "@/generated/london-buildings-0.json";
+import buildings1 from "@/generated/london-buildings-1.json";
+import buildings2 from "@/generated/london-buildings-2.json";
+import meta from "@/generated/london-city-meta.json";
 
 export type CityBuilding = {
   x: number;
@@ -46,4 +49,7 @@ export type CityData = {
   districts: CityDistrict[];
 };
 
-export const LONDON_CITY = raw as CityData;
+export const LONDON_CITY = {
+  ...meta,
+  buildings: [...buildings0, ...buildings1, ...buildings2],
+} as CityData;
