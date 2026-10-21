@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
+import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const sans = Geist({
@@ -7,10 +7,10 @@ const sans = Geist({
   subsets: ["latin"],
 });
 
-const heading = Instrument_Serif({
+const heading = Fraunces({
   variable: "--font-serif",
   subsets: ["latin"],
-  weight: "400",
+  weight: ["300", "400", "500", "600"],
 });
 
 const mono = Geist_Mono({
@@ -20,8 +20,7 @@ const mono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Demo a Day · Foo Ming Li",
-  description:
-    "Every day, one of Foo Ming Li's X bookmarks becomes a working browser demo. Public proof of shipping with AI agents.",
+  description: "I turn one X bookmark into a working browser demo. Newest first.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
