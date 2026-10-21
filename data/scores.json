@@ -10,5 +10,497 @@
     "demoAbility": 5,
     "skipReason": null,
     "suggestedDemo": "Interactive morning loop: read the real bookmark queue, pick the top pending item, animate build/verify/ship."
+  },
+  "2110806173544812876": {
+    "theme": "ai-in-software",
+    "demoAbility": 0,
+    "skipReason": "Needs a paid video model watching live footage.",
+    "suggestedDemo": null
+  },
+  "2102718297061929213": {
+    "theme": "ai-video",
+    "demoAbility": 0,
+    "skipReason": "Needs paid Astra/Codex video editing.",
+    "suggestedDemo": null
+  },
+  "2102157001421906090": {
+    "theme": "ai-video",
+    "demoAbility": 0,
+    "skipReason": "Needs paid Astra video editing on raw footage.",
+    "suggestedDemo": null
+  },
+  "2110778204873253046": {
+    "theme": "ai-in-software",
+    "demoAbility": 0,
+    "skipReason": "Product launch that needs Neomatter's backend.",
+    "suggestedDemo": null
+  },
+  "2110764303087288788": {
+    "theme": "ai-video",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Browser search over Openverse audio (free, no key) with a mock editor timeline."
+  },
+  "2110351202999587066": {
+    "theme": "other",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Map of London pints with a short tasting note per pub, no live APIs."
+  },
+  "2109809131918152075": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Image-only. Meaning is not clear from the text.",
+    "suggestedDemo": null
+  },
+  "2109663899582878201": {
+    "theme": "other",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Cookie-banner preset picker that writes a mock consent string into the page."
+  },
+  "2109298412361310228": {
+    "theme": "career",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Clickable timeline of projects that moved a PM into applied AI."
+  },
+  "2107811879036792845": {
+    "theme": "city-map",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Small 3D-ish map clone of one London slice with orbit and labelled blocks."
+  },
+  "2107874142897025212": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Image-only Coutiq/Decision API clip. Meaning is not clear from the text.",
+    "suggestedDemo": null
+  },
+  "2107535610672201876": {
+    "theme": "city-map",
+    "demoAbility": 0,
+    "skipReason": "React Native / Apple Maps package, not a browser demo.",
+    "suggestedDemo": null
+  },
+  "2107102263051235698": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Cloudflare announcement list, not a self-contained demo.",
+    "suggestedDemo": null
+  },
+  "2106473272397492474": {
+    "theme": "city-map",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Immersive Lombard-style street you can zoom into, drawn as a London hill."
+  },
+  "2106535398990377126": {
+    "theme": "city-map",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Tiny three.js London block with fake traffic lights and a day/night toggle."
+  },
+  "2106685764402876561": {
+    "theme": "ai-in-software",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Late truck on a London map. One click approves an agent reroute and rolls the ETA back."
+  },
+  "2106579541095481774": {
+    "theme": "city-map",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Switchable boroughs (Shoreditch, Canary Wharf, King's Cross) in a reduced city viewer."
+  },
+  "2086495645742080049": {
+    "theme": "city-map",
+    "demoAbility": 5,
+    "skipReason": null,
+    "suggestedDemo": "Total War-style campaign map of London startup districts competing on funding and talent."
+  },
+  "2106426962738880879": {
+    "theme": "other",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Isometric warehouse as a strategy board. Drag pallets, watch the agent restack."
+  },
+  "2105721434807083061": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Needs Claude Code plugins running locally.",
+    "suggestedDemo": null
+  },
+  "2105756563302723721": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Needs Claude Code mods running locally.",
+    "suggestedDemo": null
+  },
+  "2105736661921656997": {
+    "theme": "ai-in-software",
+    "demoAbility": 0,
+    "skipReason": "Needs the paid Jev decision model.",
+    "suggestedDemo": null
+  },
+  "2103668051468300701": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Slack multi-player harness. Needs Slack tokens.",
+    "suggestedDemo": null
+  },
+  "2102796986256883868": {
+    "theme": "ai-in-software",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Paste an X mention. Classify bug vs request vs praise, de-dupe against a mock Linear board, draft a reply."
+  },
+  "2102718343790641484": {
+    "theme": "ai-video",
+    "demoAbility": 0,
+    "skipReason": "DaVinci/Astra editing prompt. Needs paid video tools.",
+    "suggestedDemo": null
+  },
+  "2102417868134797634": {
+    "theme": "ai-video",
+    "demoAbility": 0,
+    "skipReason": "Needs paid AI video generation.",
+    "suggestedDemo": null
+  },
+  "2102050467505430555": {
+    "theme": "agent",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Fake PR factory dashboard: a night of agent PRs landing on a London compile board."
+  },
+  "2084069099412611156": {
+    "theme": "city-map",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Ghibli-tinted walk around London districts with two scripted tours."
+  },
+  "2102005817507479969": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Unified DM inbox needs LinkedIn, Slack, WhatsApp, and iMessage APIs.",
+    "suggestedDemo": null
+  },
+  "2101764502349906342": {
+    "theme": "career",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Walkable three.js career world whose buildings are roles and side projects."
+  },
+  "2101599791541301460": {
+    "theme": "ai-in-software",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Notes pane that shows a private on-device paste pipeline with fake entities."
+  },
+  "2101476399488160013": {
+    "theme": "ai-in-software",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Smart paste: clipboard history plus the focused field pick the value to insert."
+  },
+  "2101520932519153854": {
+    "theme": "ai-in-software",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Clipboard history drawer that ranks past copies against the current input."
+  },
+  "2100973868324417852": {
+    "theme": "ai-in-software",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Rules-based tax document sorter on a handful of mock PDFs. No LLM."
+  },
+  "2100925069765534024": {
+    "theme": "ai-in-software",
+    "demoAbility": 0,
+    "skipReason": "Needs the paid Jev decision model.",
+    "suggestedDemo": null
+  },
+  "2100178927528595912": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Cloudflare platform guide, not a self-contained demo.",
+    "suggestedDemo": null
+  },
+  "2098797241628758421": {
+    "theme": "city-map",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Detail-pass loop: a London scene that gets sharper each time you hit refine."
+  },
+  "2098813973714149757": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Essay. No browser mechanic to demo.",
+    "suggestedDemo": null
+  },
+  "2098009222302540086": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Essay. No browser mechanic to demo.",
+    "suggestedDemo": null
+  },
+  "2097394663200076189": {
+    "theme": "career",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "A now page for a London PM, dated entries you can add in the browser."
+  },
+  "2086049629758480637": {
+    "theme": "career",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Interactive case for Canary Wharf as London's SF, with district stats you can toggle."
+  },
+  "2096143589151756638": {
+    "theme": "city-map",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Fly and walk a reduced London with a day/night switch, Hangzhou-post style."
+  },
+  "2095911316280025472": {
+    "theme": "city-map",
+    "demoAbility": 0,
+    "skipReason": "Needs a terrain/buildings export API to make a print file.",
+    "suggestedDemo": null
+  },
+  "2095819818176029007": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Intro tweet. No demo mechanic.",
+    "suggestedDemo": null
+  },
+  "2095505027536224349": {
+    "theme": "career",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Workshop landing for a 3-hour London PM session on shipping with agents."
+  },
+  "2094808120270918022": {
+    "theme": "career",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Non-technical GitHub that still looks hired: a mock contribution wall of shipped demos."
+  },
+  "2094054951576387649": {
+    "theme": "city-map",
+    "demoAbility": 0,
+    "skipReason": "MapLibre FlutterGPU. Not a browser demo.",
+    "suggestedDemo": null
+  },
+  "2094042779081207913": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Grok Bot credit grab. Not a demo, and it needs an X developer account.",
+    "suggestedDemo": null
+  },
+  "2093638857665192087": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Needs an iOS app, webhook, and push certs.",
+    "suggestedDemo": null
+  },
+  "2093106777491640669": {
+    "theme": "city-map",
+    "demoAbility": 0,
+    "skipReason": "Native Metal/Vulkan map engine, not a small browser demo.",
+    "suggestedDemo": null
+  },
+  "2093307842958970891": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Needs a paid p0 API key and email access.",
+    "suggestedDemo": null
+  },
+  "2092645833388789790": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Hiring tweet. No demo mechanic.",
+    "suggestedDemo": null
+  },
+  "2090527548157669715": {
+    "theme": "city-map",
+    "demoAbility": 5,
+    "skipReason": null,
+    "suggestedDemo": "SimLondon: mock TfL, weather, and synthetic founders walking between startup sites."
+  },
+  "2087289803964559746": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Open-source Grok Bot clone needs VMs, computer-use, and plugin credentials.",
+    "suggestedDemo": null
+  },
+  "2087071144939786398": {
+    "theme": "city-map",
+    "demoAbility": 0,
+    "skipReason": "Needs Cesium 3D Tiles. Too heavy for a one-session demo.",
+    "suggestedDemo": null
+  },
+  "2086883206301925800": {
+    "theme": "other",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Vibe-design checklist that scores a pasted URL against a short rubric."
+  },
+  "2086611202671583280": {
+    "theme": "ai-video",
+    "demoAbility": 0,
+    "skipReason": "Needs a paid realtime video model.",
+    "suggestedDemo": null
+  },
+  "2086023649526452265": {
+    "theme": "city-map",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Scroll-linked 3D section walker, reduced to one London street."
+  },
+  "2085765403729653877": {
+    "theme": "city-map",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Replace a hero video with a tiny 3D scroll scene."
+  },
+  "2080671620272885819": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Product ad. No demo mechanic.",
+    "suggestedDemo": null
+  },
+  "2078266436468748558": {
+    "theme": "other",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Slide deck that embeds a live mini-widget per slide."
+  },
+  "2075188252877672732": {
+    "theme": "other",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Apple-design rubric you can run against a screenshot of this gallery."
+  },
+  "2074875092090470469": {
+    "theme": "agent",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Orchestrator diagram: Fable plans, Codex executes, token meters stay fake."
+  },
+  "2041875179392135559": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Local GPU fine-tune. Needs hardware and model weights.",
+    "suggestedDemo": null
+  },
+  "2074512552013582592": {
+    "theme": "agent",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Browsable skill shelf with a couple of fake web-design skills."
+  },
+  "2072436501263339841": {
+    "theme": "agent",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Role board: orchestrator, reasoner, mechanic, peer reviewer. Drag a task through them."
+  },
+  "2071981082594210054": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Needs an NVIDIA API key.",
+    "suggestedDemo": null
+  },
+  "2070519891157799283": {
+    "theme": "agent",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Overnight vault: a star map of notes with XP and a morning brief, all mock data."
+  },
+  "2070219094255599645": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Internal Anthropic video. No browser mechanic.",
+    "suggestedDemo": null
+  },
+  "2069967490575192401": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Design-workflow video. No browser mechanic.",
+    "suggestedDemo": null
+  },
+  "2069588907801424263": {
+    "theme": "other",
+    "demoAbility": 0,
+    "skipReason": "Needs Unreal Engine MCP.",
+    "suggestedDemo": null
+  },
+  "2069075880912027687": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Always-on Telegram agent. Needs a bot token.",
+    "suggestedDemo": null
+  },
+  "2069064659613958348": {
+    "theme": "agent",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Clip metadata inspector: a fake recording with chapters an agent can read."
+  },
+  "2068753952850546985": {
+    "theme": "agent",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "Second-brain folder: drop a source card, watch a note graph grow."
+  },
+  "2068500722577219586": {
+    "theme": "city-map",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Thames boats, a ribbon of fog, and fake flights into LHR/LCY on a 2.5D map."
+  },
+  "1898566138352820561": {
+    "theme": "career",
+    "demoAbility": 3,
+    "skipReason": null,
+    "suggestedDemo": "One-pager that turns a target company into a teardown, mini PRD, and clickable prototype frame."
+  },
+  "2066664675542999369": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Viral-launch essay. No browser mechanic.",
+    "suggestedDemo": null
+  },
+  "2066437136354545981": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Needs Kimi plus an Obsidian vault running overnight.",
+    "suggestedDemo": null
+  },
+  "2065035615800864954": {
+    "theme": "agent",
+    "demoAbility": 4,
+    "skipReason": null,
+    "suggestedDemo": "Loss-function distiller: write a product in one field, watch a scorecard of losses update."
+  },
+  "2063321324605280569": {
+    "theme": "agent",
+    "demoAbility": 2,
+    "skipReason": null,
+    "suggestedDemo": "Briefing console: type what you want in plain words, see a fake agent plan."
+  },
+  "2062774920770473990": {
+    "theme": "career",
+    "demoAbility": 0,
+    "skipReason": "Codex giveaway post. No demo mechanic.",
+    "suggestedDemo": null
+  },
+  "2049499354323399002": {
+    "theme": "agent",
+    "demoAbility": 0,
+    "skipReason": "Claude Code 24/7 team. Needs Claude Code and repo credentials.",
+    "suggestedDemo": null
   }
 }
