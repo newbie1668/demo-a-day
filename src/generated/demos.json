@@ -1,0 +1,26 @@
+{
+  "demos": [
+    {
+      "slug": "isometric-london",
+      "bookmarkId": "2112439926071693741",
+      "title": "Isometric London",
+      "pitch": "Pan an isometric schematic of London startup districts, then click one for a short briefing.",
+      "date": "2026-10-21",
+      "thumbnail": "/thumbs/isometric-london.svg",
+      "howBuilt": "SVG isometric projection of eight named districts. No map tiles and no API keys. Positions are a schematic, not OSM. Built from the tiny.london bookmark by @ktoya_me.",
+      "author": "ktoya_me",
+      "sourceUrl": "https://x.com/i/status/2112439926071693741"
+    },
+    {
+      "slug": "bookmark-agent-loop",
+      "bookmarkId": "2111339824867393931",
+      "title": "Morning bookmark loop",
+      "pitch": "Press one button to watch the daily agent read the live queue, pick the top pending bookmark, and ship it.",
+      "date": "2026-10-21",
+      "thumbnail": "/thumbs/bookmark-agent-loop.svg",
+      "howBuilt": "Client state machine over src/generated/queue-preview.json, the same file generate-queue.py writes. Picker rules match scripts/pick-next-demo.mjs. No model calls.",
+      "author": "jxwalker",
+      "sourceUrl": "https://x.com/i/status/2111339824867393931"
+    }
+  ]
+}

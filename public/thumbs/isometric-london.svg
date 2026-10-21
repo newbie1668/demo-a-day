@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Isometric London thumbnail">
+  <rect width="640" height="360" fill="#14110e"/>
+  <g fill="none" stroke="#243a44" stroke-width="10">
+    <path d="M40 220 L320 80 L600 220 L320 360 Z"/>
+  </g>
+  <polygon points="320,90 410,135 320,180 230,135" fill="#d4a017"/>
+  <polygon points="230,135 320,180 230,225 140,180" fill="#c45c48"/>
+  <polygon points="410,135 500,180 410,225 320,180" fill="#3d6b7a"/>
+  <polygon points="320,180 410,225 320,270 230,225" fill="#4f8c9c"/>
+  <text x="320" y="40" text-anchor="middle" fill="#f4efe4" font-family="Georgia, serif" font-size="22">Isometric London</text>
+</svg>
