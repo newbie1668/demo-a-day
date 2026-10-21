@@ -49,7 +49,17 @@ export type CityData = {
   districts: CityDistrict[];
 };
 
+type PackedBuilding = [number, number, number, number, number, number, number];
+
+function unpack(rows: PackedBuilding[]): CityBuilding[] {
+  return rows.map(([x, z, w, d, h, r, k]) => ({ x, z, w, d, h, r, k }));
+}
+
 export const LONDON_CITY = {
   ...meta,
-  buildings: [...buildings0, ...buildings1, ...buildings2],
+  buildings: unpack([
+    ...(buildings0 as PackedBuilding[]),
+    ...(buildings1 as PackedBuilding[]),
+    ...(buildings2 as PackedBuilding[]),
+  ]),
 } as CityData;
