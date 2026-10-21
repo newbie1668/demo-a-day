@@ -13,13 +13,9 @@ function formatDate(iso: string): string {
 
 export function DemoCard({ demo, featured = false }: { demo: GalleryDemo; featured?: boolean }) {
   return (
-    <article className={featured ? "col-span-full" : ""}>
+    <article>
       <Link href={`/demos/${demo.slug}`} className="group block">
-        <div
-          className={`overflow-hidden rounded-2xl bg-[#0b1018] ring-1 ring-white/10 transition group-hover:ring-amber-200/35 ${
-            featured ? "aspect-[16/8] sm:aspect-[21/9]" : "aspect-[16/10]"
-          }`}
-        >
+        <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-[#0b1018] ring-1 ring-white/10 transition group-hover:ring-amber-200/35">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={demo.thumbnail}
@@ -29,7 +25,9 @@ export function DemoCard({ demo, featured = false }: { demo: GalleryDemo; featur
         </div>
         <div className="px-1 pt-4">
           <p className="font-mono text-[11px] tracking-[0.18em] text-amber-100/80 uppercase">{formatDate(demo.date)}</p>
-          <h2 className={`mt-2 font-heading tracking-tight text-foreground ${featured ? "text-4xl sm:text-5xl" : "text-3xl"}`}>
+          <h2
+            className={`mt-2 font-heading tracking-tight text-foreground ${featured ? "text-4xl sm:text-5xl" : "text-3xl"}`}
+          >
             {demo.title}
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-foreground/75 sm:text-base">{demo.pitch}</p>
