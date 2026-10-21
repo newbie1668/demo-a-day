@@ -1,26 +1,26 @@
 {
   "demos": [
     {
-      "slug": "isometric-london",
-      "bookmarkId": "2112439926071693741",
-      "title": "Isometric London",
-      "pitch": "Orbit a 3D London along the real Thames, then click a district.",
-      "date": "2026-10-21",
-      "thumbnail": "/thumbs/isometric-london.png",
-      "howBuilt": "A three.js city on real coordinates. Building footprints were baked from OpenStreetMap at build time. The Thames, docks, and named towers are in the scene. No map API runs in the browser.",
-      "author": "ktoya_me",
-      "sourceUrl": "https://x.com/i/status/2112439926071693741"
-    },
-    {
       "slug": "bookmark-agent-loop",
       "bookmarkId": "2111339824867393931",
       "title": "Morning bookmark loop",
       "pitch": "Press run and watch me read the live queue, pick the top bookmark, and ship it.",
       "date": "2026-10-21",
       "thumbnail": "/thumbs/bookmark-agent-loop.png",
-      "howBuilt": "The live pending queue, ranked the way I pick work each morning. Highest demo-ability, then newest. Press run and it reads a real bookmark card, builds, and ships.",
+      "howBuilt": "I wired the live pending queue to the same picker I run in the morning. Press run and it reads a real bookmark, builds, and ships.",
       "author": "jxwalker",
       "sourceUrl": "https://x.com/i/status/2111339824867393931"
+    },
+    {
+      "slug": "isometric-london",
+      "bookmarkId": "2112439926071693741",
+      "title": "Isometric London",
+      "pitch": "Orbit a 3D London along the real Thames, then click a district.",
+      "date": "2026-10-21",
+      "thumbnail": "/thumbs/isometric-london.png",
+      "howBuilt": "I baked the Thames, the named towers, and OpenStreetMap footprints into a static city, then lit it at dusk. Orbit it. Click a district.",
+      "author": "ktoya_me",
+      "sourceUrl": "https://x.com/i/status/2112439926071693741"
     }
   ]
 }
