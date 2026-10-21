@@ -1,0 +1,14 @@
+{
+  "2112439926071693741": {
+    "theme": "city-map",
+    "demoAbility": 5,
+    "skipReason": null,
+    "suggestedDemo": "Isometric pixel map of London districts with pan, zoom, and startup-cluster labels."
+  },
+  "2111339824867393931": {
+    "theme": "agent",
+    "demoAbility": 5,
+    "skipReason": null,
+    "suggestedDemo": "Interactive morning loop: read the real bookmark queue, pick the top pending item, animate build/verify/ship."
+  }
+}
