@@ -497,8 +497,18 @@ const city = {
   districts,
 };
 
-const outPath = join(root, "src/generated/london-city.json");
+const generated = join(root, "src/generated");
+const outPath = join(generated, "london-city.json");
 writeFileSync(outPath, JSON.stringify(city));
+const { buildings: cityBuildings, ...cityMeta } = city;
+writeFileSync(join(generated, "london-city-meta.json"), JSON.stringify(cityMeta));
+const packed = cityBuildings.map((b) => [b.x, b.z, b.w, b.d, b.h, b.r, b.k]);
+const chunkCount = 3;
+const chunkSize = Math.ceil(packed.length / chunkCount);
+for (let i = 0; i < chunkCount; i += 1) {
+  const part = packed.slice(i * chunkSize, (i + 1) * chunkSize);
+  writeFileSync(join(generated, `london-buildings-${i}.json`), JSON.stringify(part));
+}
 console.log(
   `wrote ${outPath} buildings=${buildings.length} osm=${osm.length} fabric=${fabric.length} river=${river.length}`,
 );
