@@ -1,26 +1,24 @@
 import Link from "next/link";
 
-export function SiteHeader({ kicker }: { kicker?: string }) {
+export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
   return (
-    <header className="border-b border-border/70">
-      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 sm:flex-row sm:items-end sm:justify-between sm:px-6">
-        <div className="space-y-2">
-          <p className="font-mono text-[11px] tracking-[0.28em] text-amber-200/80 uppercase">
-            {kicker ?? "London · daily"}
-          </p>
-          <Link href="/" className="font-heading text-3xl tracking-tight text-foreground sm:text-4xl">
+    <header className={overlay ? "absolute inset-x-0 top-0 z-20" : "border-b border-white/8"}>
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-5 sm:px-6">
+        <div>
+          <Link href="/" className="font-heading text-2xl tracking-tight text-foreground">
             Demo a Day
           </Link>
-          <p className="max-w-xl text-sm leading-6 text-muted-foreground">
-            Foo Ming Li turns one X bookmark into a working browser demo. Public proof he can ship with AI
-            agents, aimed at AI-native companies hiring senior PMs.
-          </p>
+          {overlay ? null : (
+            <p className="mt-1 max-w-md text-sm leading-5 text-muted-foreground">
+              I turn one X bookmark into a working demo.
+            </p>
+          )}
         </div>
-        <nav className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-xs text-muted-foreground">
-          <a href="https://x.com/fooming86" className="hover:text-amber-200">
+        <nav className="flex flex-wrap justify-end gap-x-5 gap-y-1 font-mono text-xs text-foreground/70">
+          <a href="https://x.com/fooming86" className="hover:text-amber-100">
             @fooming86
           </a>
-          <a href="https://londonstartupmap.com" className="hover:text-amber-200">
+          <a href="https://londonstartupmap.com" className="hover:text-amber-100">
             londonstartupmap.com
           </a>
         </nav>

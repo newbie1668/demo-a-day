@@ -1,18 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 export function EmptyGallery() {
   return (
-    <Card className="border-dashed bg-card/40">
-      <CardHeader>
-        <CardTitle className="font-heading text-2xl">No demos shipped yet</CardTitle>
-      </CardHeader>
-      <CardContent className="space-y-3 text-sm leading-6 text-muted-foreground">
-        <p>The queue is scored. Nothing has been marked built.</p>
-        <p>
-          A cloud agent should run <code className="font-mono text-amber-200">.cursor/skills/build-next-demo</code>{" "}
-          and <code className="font-mono text-amber-200">node scripts/pick-next-demo.mjs</code>.
-        </p>
-      </CardContent>
-    </Card>
+    <div className="rounded-2xl bg-white/5 px-6 py-16 text-center ring-1 ring-white/10">
+      <h2 className="font-heading text-3xl tracking-tight">Nothing shipped yet</h2>
+      <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-muted-foreground">
+        The queue is scored. The first demo still has to land.
+      </p>
+    </div>
   );
 }
